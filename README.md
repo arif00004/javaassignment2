@@ -156,24 +156,84 @@ No, all variables need to be declared.
 <br>}
 
 29.	Write a Java program to get the character at the 5th index of the String “automation”.
-
+- public class Main {
+    <br>public static void main(String[] args) {
+       <br>  String str = "automation";
+        <br> int index = 5;
+       <br>  char ch = str.charAt(index);
+        <br> System.out.println("Character at index " + index + " is : " + ch);
+   <br>  }
+ <br>}
 
 30.	Write a program to find the length of the string "automation".
-
+public class Main {
+    <br>public static void main(String[] args) {
+        <br>String str = "automation";
+        <br>int index = 5;
+        <br>char ch = str.charAt(index);
+       <br> int length = str.length();
+        <br>System.out.println("Character at index " + index + " is : " + ch);
+        <br>System.out.println("The length of the index " + length + " is : " + length);
+   <br> }
+<br>}
 
 31.	Write a Java program to concatenate a string “Java” to the end of another string “C#”.
+- public class Main {
+  <br>public static void main(String args[]) {
+    <br>String Name1 = "Java";
+    <br>String Name2 = "C#";
+    <br>System.out.println(Name1 + " " + Name2);
+  <br>}
+<br>}
 
 
 32.	Write a Java program to compare a string “automation” and another string “Automation”.
-
+- public class Main{  
+ <br>public static void main(String args[])
+ <br>{  
+  <br> String s1="automation";  
+ <br>  String s2="Automation";  
+ <br> if(s1.equals(s2)) {
+ <br>  System.out.println("true");
+ <br>  }
+ <br> else {
+ <br> System.out.println("false");
+<br>   }
+<br> }  
+<br>}  
 
 33.	Write a Java program to check whether a string “Software” ends with the contents of another string “Hardware”. 
+- public class Main{  
+ <br>public static void main(String args[])
+ <br>{  
+   <br>String str1= "Software"; 
+   <br>System.out.println(str1.endsWith("Hardware"));
+ <br>}  
+<br>}  
 
 34.	Write a Java program to replace a character “n” with character “m” in the string “Automation”.
-
+- public class Main {
+    <br>public static void main(String[] args) {
+     <br>String str = "Automation";
+      <br>  StringBuilder newString = new StringBuilder(str);
+        <br>newString.setCharAt(9, 'm' );
+        <br> System.out.println(newString);
+ <br>}
+<br>}
 
 35.	Write a Java program to check whether a string “Java is my favorite programming Lang” starts with the contents of another string “Python is my favorite programming language”.
+- public class Main{  
+ <br>public static void main(String args[])
+<br>{  
+<br>String str1= "Java is my favorite programming Lang"; 
+<br>String str2= "Python is my favorite programming language"; 
+<br>String startStr="Python is my favorite programming language";
 
+<br> boolean starts1 = str1.startsWith(startStr);
+
+<br>System.out.println( str1 + " starts with " + str2 + "?" + starts1 );
+<br>}  
+<br>} 
 
 36.	Write a program to get a substring of the string “Let this be the last year tha you doubt yourself, fear, change or quit. Never give up” starting from index 10 and ending at index 26.
 
