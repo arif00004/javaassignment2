@@ -1,6 +1,6 @@
 ## Assignment 2 (Variable and Data Types)
 1. What do you understand by variable?
--  Variable is a quantity that may change withning contextual or mathmetical problem or experiment. They are known as variable because the values can change. 
+-  Variable is a quantity that may change withnin contextual or mathmetical problem or experiment. They are known as variable because the values can change. 
 However, in Java, variables are containers that store data values and need to be declared by data type.
   
 3. Name types of variables.
