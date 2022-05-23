@@ -8,6 +8,7 @@ However, in Java, variables are containers that store data values and need to be
 - Static fields
 - Local variables 
 - Parameters
+
 4. What is the difference between static and instance variables?
 - Instance variables belong to an object and they belong to an object. Their classes are unique to each instances.
 - Static variables are declared with static modifiers. This values are not unique and don't belong to specific object. Instead this is static and belongs to all objects.
@@ -16,10 +17,10 @@ However, in Java, variables are containers that store data values and need to be
 - Static variables require a keyword to determine its scope.
 
 6.	Which thing specifies the size and type of variable?
-Data type specifies the size and type of variable. Primitive data type is responsible for specifying the size and type.
+- Data type specifies the size and type of variable. Primitive data type is responsible for specifying the size and type.
 
 7.	Can we use a variable without declaring it?
-No, all variables need to be declared.
+- No, all variables need to be declared.
 
 8.	How can we declare a variable?
 - Specify the tupe, leave one space and then use name of the variable and then end the line with ; 
