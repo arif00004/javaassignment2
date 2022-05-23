@@ -124,8 +124,8 @@ No, all variables need to be declared.
 ---int myInt = (int) myDouble; // Automatic casting: int to double
 ---System.out.println(myDouble);
 ---System.out.println(myInt);
-  }
-}
+---}
+---}
 
 25.	Write a program to convert int to string and print a message stating which type casting you did?
 - Int can not be converted into string.
