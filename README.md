@@ -236,14 +236,38 @@ public class Main {
 <br>} 
 
 36.	Write a program to get a substring of the string “Let this be the last year tha you doubt yourself, fear, change or quit. Never give up” starting from index 10 and ending at index 26.
-
+- public class Main{
+   <br>public static void main(String args[]) {
+     <br>  String str= new String("Let this be the last year that you doubt yourself, fear, change or quit. Never give up");
+      <br> System.out.println(str.substring(10, 26));
+   }
+}
 
 37.	Write a Java program to convert all the characters in a string “YourName” to lowercase.
-
+- public class Main {
+   <br> public static void main(String[] args) {
+   <br>String name = "Arif Islam";
+   <br>System.out.println(name.toLowerCase());
+<br>}
+<br>}
 
 38.	Write a Java program to convert all the characters in a string “YourName” to uppercase.
-
+- public class Main {
+   <br> public static void main(String[] args) {
+   <br>String name = "arif islam";
+   <br>System.out.println(name.toUpperCase());
+<br>}
+<br>}
 
 39.	Write a program to reverse a string “ Java is my favorite”. 
-
+- public class Main {
+<br> public static void main(String[] args) {
+<br>  String string1  =  "Java is my favorite";
+<br>  System.out.println("Original string: "+string1);
+<br> StringBuilder reverseString = new StringBuilder(string1);
+<br> reverseString.reverse();
+<br> String result = reverseString.toString();
+<br> System.out.println("Reversed string: "+result); 
+<br> }
+<br> }
 
