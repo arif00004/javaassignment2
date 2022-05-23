@@ -1,7 +1,7 @@
 ## Assignment 2 (Variable and Data Types)
 1. What do you understand by variable?
 -  Variable is a quantity that may change withning contextual or mathmetical problem or experiment. They are known as variable because the values can change. 
--  However, in Java, variables are containers that store data values and need to be declared by data type.
+However, in Java, variables are containers that store data values and need to be declared by data type.
   
 3. Name types of variables.
 - Non static fields/Instance variables
@@ -66,26 +66,63 @@ No, all variables need to be declared.
 - char as its a text data.
 
 19.	Write a program and declare the variable of each data type you learned in class. Initialize each variable with appropriate values and print them. 
- 
-35.	Write a program to print your name, email, address, phone number, and id. 
+- public class DataType {
+public static void main(String[] args)
+{
+int myNum = 5; //integer (whole number)
+float myFloatNum = 5.99f; //floating point number
+double myDoubleNum = 15.99d; //double floating number
+char myLetter = 'D'; // character as in text
+boolean myBoolean = true; // Boolean as in true or false
+String myText = "Hello"; // Text
+System.out.println(myNum);
+System.out.println(myFloatNum);
+System.out.println(myDoubleNum);
+System.out.println(myLetter);
+System.out.println(myBoolean);
+System.out.println(myText);
+}
+}
+- javac DataType.java
+- java DataType
 
+20.	Write a program to print your name, email, address, phone number, and id. 
+- public class Detail {
+public static void main(String[] args)
+{
+String myName = "John";
+String myEmail = "john@javaassignment2.com";
+String myAddress = "34212 Ryan Road, MI";
+int myNumber = 646872827;
+int id = 1;
+System.out.println(myName);
+System.out.println(myEmail);
+System.out.println(myAddress);
+System.out.println(myNumber);
+System.out.println(id);
+}
+}	
+- javac Detail.java
+- java Detail
 
-37.	What do you understand by typecasting?
-38.	In which type casting Java automatically converts one data type to another data type?
-39.	Write a program to convert int to double and print a message stating which type casting you did?
-40.	Write a program to convert double to int and print a message stating which type casting you did?
-41.	Write a program to convert int to string and print a message stating which type casting you did?
-42.	Write a program to convert string to int and print a message stating which type casting you did?
-43.	Write a program to convert float to double and print a message stating which type casting you did?
-44.	Write a program to convert byte to float and print a message stating which type casting you did?
-45.	Write a Java program to get the character at the 5th index of the String “automation”.
-46.	Write a program to find the length of the string "automation".
-47.	Write a Java program to concatenate a string “Java” to the end of another string “C#”.
-48.	Write a Java program to compare a string “automation” and another string “Automation”.
-49.	Write a Java program to check whether a string “Software” ends with the contents of another string “Hardware”. 
-50.	Write a Java program to replace a character “n” with character “m” in the string “Automation”.
-51.	Write a Java program to check whether a string “Java is my favorite programming Lang” starts with the contents of another string “Python is my favorite programming language”.
-52.	Write a program to get a substring of the string “Let this be the last year tha you doubt yourself, fear, change or quit. Never give up” starting from index 10 and ending at index 26.
-53.	Write a Java program to convert all the characters in a string “YourName” to lowercase.
-54.	Write a Java program to convert all the characters in a string “YourName” to uppercase.
-55.	Write a program to reverse a string “ Java is my favorite”. 
+21.	What do you understand by typecasting?
+- Typecasting is a way of converting one type of data to another type.
+
+39.	In which type casting Java automatically converts one data type to another data type?
+40.	Write a program to convert int to double and print a message stating which type casting you did?
+41.	Write a program to convert double to int and print a message stating which type casting you did?
+42.	Write a program to convert int to string and print a message stating which type casting you did?
+43.	Write a program to convert string to int and print a message stating which type casting you did?
+44.	Write a program to convert float to double and print a message stating which type casting you did?
+45.	Write a program to convert byte to float and print a message stating which type casting you did?
+46.	Write a Java program to get the character at the 5th index of the String “automation”.
+47.	Write a program to find the length of the string "automation".
+48.	Write a Java program to concatenate a string “Java” to the end of another string “C#”.
+49.	Write a Java program to compare a string “automation” and another string “Automation”.
+50.	Write a Java program to check whether a string “Software” ends with the contents of another string “Hardware”. 
+51.	Write a Java program to replace a character “n” with character “m” in the string “Automation”.
+52.	Write a Java program to check whether a string “Java is my favorite programming Lang” starts with the contents of another string “Python is my favorite programming language”.
+53.	Write a program to get a substring of the string “Let this be the last year tha you doubt yourself, fear, change or quit. Never give up” starting from index 10 and ending at index 26.
+54.	Write a Java program to convert all the characters in a string “YourName” to lowercase.
+55.	Write a Java program to convert all the characters in a string “YourName” to uppercase.
+56.	Write a program to reverse a string “ Java is my favorite”. 
