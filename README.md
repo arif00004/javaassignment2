@@ -67,37 +67,37 @@ No, all variables need to be declared.
 
 19.	Write a program and declare the variable of each data type you learned in class. Initialize each variable with appropriate values and print them. 
 - public class DataType {
---public static void main(String[] args)
---{
----int myNum = 5; //integer (whole number)
----float myFloatNum = 5.99f; //floating point number
----double myDoubleNum = 15.99d; //double floating number
----char myLetter = 'D'; // character as in text
----boolean myBoolean = true; // Boolean as in true or false
----String myText = "Hello"; // Text
----System.out.println(myNum);
----System.out.println(myFloatNum);
----System.out.println(myDoubleNum);
----System.out.println(myLetter);
----System.out.println(myBoolean);
----System.out.println(myText);
+<br> public static void main(String[] args)
+<br> {
+<br> int myNum = 5; //integer (whole number)
+<br> float myFloatNum = 5.99f; //floating point number
+<br> double myDoubleNum = 15.99d; //double floating number
+<br> char myLetter = 'D'; // character as in text
+<br> boolean myBoolean = true; // Boolean as in true or false
+<br> String myText = "Hello"; // Text
+<br> System.out.println(myNum);
+<br> System.out.println(myFloatNum);
+<br> System.out.println(myDoubleNum);
+<br> System.out.println(myLetter);
+<br> System.out.println(myBoolean);
+<br> System.out.println(myText);
 }
 }
 
 20.	Write a program to print your name, email, address, phone number, and id. 
 - public class Detail {
----public static void main(String[] args)
----{
----String myName = "John";
----String myEmail = "john@javaassignment2.com";
----String myAddress = "34212 Ryan Road, MI";
----int myNumber = 646872827;
----int id = 1;
----System.out.println(myName);
----System.out.println(myEmail);
----System.out.println(myAddress);
----System.out.println(myNumber);
----System.out.println(id);
+<br> public static void main(String[] args)
+<br> {
+<br> String myName = "John";
+<br> String myEmail = "john@javaassignment2.com";
+<br> String myAddress = "34212 Ryan Road, MI";
+<br> int myNumber = 646872827;
+<br> int id = 1;
+<br> System.out.println(myName);
+<br> System.out.println(myEmail);
+<br> System.out.println(myAddress);
+<br> System.out.println(myNumber);
+<br> System.out.println(id);
 }
 }	
 
@@ -109,41 +109,81 @@ No, all variables need to be declared.
 
 23.	Write a program to convert int to double and print a message stating which type casting you did?
 - public class ConvertTest {
----public static void main(String[] args) {
----int myInt = 9;
----double myDouble = myInt; // Automatic casting: int to double
----System.out.println(myInt);
----System.out.println(myDouble);
----}
----}
+<br> public static void main(String[] args) {
+<br> int myInt = 9;
+<br> double myDouble = myInt; // Automatic casting: int to double
+<br> System.out.println(myInt);
+<br> System.out.println(myDouble);
+<br> }
+<br> }
 
 24.	Write a program to convert double to int and print a message stating which type casting you did?
 - public class ConvertTest2 {
----public static void main(String[] args) {
----double myDouble = 19.99d;
----int myInt = (int) myDouble; // Automatic casting: int to double
----System.out.println(myDouble);
----System.out.println(myInt);
----}
----}
+<br> public static void main(String[] args) {
+<br> double myDouble = 19.99d;
+<br> int myInt = (int) myDouble; // Automatic casting: int to double
+<br> System.out.println(myDouble);
+<br> System.out.println(myInt);
+<br> }
+<br> }
 
 25.	Write a program to convert int to string and print a message stating which type casting you did?
 - Int can not be converted into string.
 
-46.	Write a program to convert string to int and print a message stating which type casting you did?
+26.	Write a program to convert string to int and print a message stating which type casting you did?
 - String can not be converted into int.
 
-48.	Write a program to convert float to double and print a message stating which type casting you did?
-- 
-50.	Write a program to convert byte to float and print a message stating which type casting you did?
-51.	Write a Java program to get the character at the 5th index of the String “automation”.
-52.	Write a program to find the length of the string "automation".
-53.	Write a Java program to concatenate a string “Java” to the end of another string “C#”.
-54.	Write a Java program to compare a string “automation” and another string “Automation”.
-55.	Write a Java program to check whether a string “Software” ends with the contents of another string “Hardware”. 
-56.	Write a Java program to replace a character “n” with character “m” in the string “Automation”.
-57.	Write a Java program to check whether a string “Java is my favorite programming Lang” starts with the contents of another string “Python is my favorite programming language”.
-58.	Write a program to get a substring of the string “Let this be the last year tha you doubt yourself, fear, change or quit. Never give up” starting from index 10 and ending at index 26.
-59.	Write a Java program to convert all the characters in a string “YourName” to lowercase.
-60.	Write a Java program to convert all the characters in a string “YourName” to uppercase.
-61.	Write a program to reverse a string “ Java is my favorite”. 
+27.	Write a program to convert float to double and print a message stating which type casting you did?
+- public class FloatDouble {
+  <br> public static void main(String[] args) {
+    <br> float myFloat = 1.99f;
+    <br> double myDouble = myFloat; // Automatic casting: float to double
+
+    <br> System.out.println(myFloat);
+    <br>System.out.println(myDouble);
+  <br>}
+<br>}
+
+28.	Write a program to convert byte to float and print a message stating which type casting you did?
+- public class ByteFloat {
+  <br> public static void main(String[] args) {
+    <br> byte myByte = 10;
+    <br> float myFloat = myByte; // Automatic casting: Byte to Float
+
+    <br>System.out.println(myByte);
+    <br>System.out.println(myFloat);
+  <br>}
+<br>}
+
+29.	Write a Java program to get the character at the 5th index of the String “automation”.
+
+
+30.	Write a program to find the length of the string "automation".
+
+
+31.	Write a Java program to concatenate a string “Java” to the end of another string “C#”.
+
+
+32.	Write a Java program to compare a string “automation” and another string “Automation”.
+
+
+33.	Write a Java program to check whether a string “Software” ends with the contents of another string “Hardware”. 
+
+34.	Write a Java program to replace a character “n” with character “m” in the string “Automation”.
+
+
+35.	Write a Java program to check whether a string “Java is my favorite programming Lang” starts with the contents of another string “Python is my favorite programming language”.
+
+
+36.	Write a program to get a substring of the string “Let this be the last year tha you doubt yourself, fear, change or quit. Never give up” starting from index 10 and ending at index 26.
+
+
+37.	Write a Java program to convert all the characters in a string “YourName” to lowercase.
+
+
+38.	Write a Java program to convert all the characters in a string “YourName” to uppercase.
+
+
+39.	Write a program to reverse a string “ Java is my favorite”. 
+
+
